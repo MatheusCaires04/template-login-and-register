@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Login and Register</title>
+  </head>
+  <body>
+    <div class="login__and__register">
+      <div class="container__register container">
+        <h1 class="title">Create Account</h1>
+        <ul class="link__social__media">
+          <li class="social__media">
+            <a href="#" class="link"
+              ><img src="assets/google.png" alt="Logo de login do GOOGLE"
+            /></a>
+          </li>
+          <li class="social__media">
+            <a href="#" class="link"
+              ><img src="assets/facebook.png" alt="Logo de login do FACEBOOK"
+            /></a>
+          </li>
+          <li class="social__media">
+            <a href="#" class="link"
+              ><img src="assets/linkedin.png" alt="Logo de login do LINKEDIN"
+            /></a>
+          </li>
+        </ul>
+        <div class="separator">
+          <span>OR</span>
+        </div>
+        <form class="form__register form">
+          <div class="form__group">
+            <label>Name</label><input type="text" autocomplete="off" />
+          </div>
+          <div class="form__group">
+            <label>E-mail</label><input type="email" />
+          </div>
+          <div class="form__group">
+            <label>Password</label
+            ><input type="password" minlength="8" maxlength="16" />
+          </div>
+          <input class="btn__register btn" type="submit" value="Sign Up" />
+        </form>
+        <a href="#" class="login btn__change">Não possui conta? Registre-se</a>
+      </div>
+      <div class="container__login container">
+        <h1 class="title">Login</h1>
+        <ul class="link__social__media">
+          <li class="social__media">
+            <a href="#" class="link"
+              ><img src="assets/google.png" alt="Logo de login do GOOGLE"
+            /></a>
+          </li>
+          <li class="social__media">
+            <a href="#" class="link"
+              ><img src="assets/facebook.png" alt="Logo de login do FACEBOOK"
+            /></a>
+          </li>
+          <li class="social__media">
+            <a href="#" class="link"
+              ><img src="assets/linkedin.png" alt="Logo de login do LINKEDIN"
+            /></a>
+          </li>
+        </ul>
+        <div class="separator">
+          <span>OR</span>
+        </div>
+        <form class="form__login form">
+          <div class="form__group">
+            <label>E-mail</label><input type="email" />
+          </div>
+          <div class="form__group">
+            <label>Password</label
+            ><input type="password" minlength="8" maxlength="16" />
+          </div>
+          <input class="btn__login btn" type="submit" value="Login" />
+        </form>
+        <a href="#" class="register btn__change"
+          >Não possui conta? Registre-se</a
+        >
+      </div>
+    </div>
+    <div class="container__image">
+      <div class="image__mobile">
+        <img src="assets/mobile.svg" alt="" />
+      </div>
+      <div class="image__absolute__right"></div>
+    </div>
+
+    <script src="script/changeForm.js"></script>
+  </body>
+</html>
